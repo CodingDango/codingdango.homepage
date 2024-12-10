@@ -1,0 +1,81 @@
+
+
+:root{
+    --main_color: rgb(30, 104, 241);
+    --secondary_color: rgb(74, 137, 255);
+    --hover_color: rgb(121, 168, 255);
+}
+
+
+/* GLOBAL TAGS */
+p {
+    font-size: 2.0rem;
+}
+
+#required .custom_input {
+    margin: 1.5rem;
+    border: 4px solid var(--main_color) !important;
+    border-radius: 4px;
+
+}
+
+
+
+/* ICON IMAGES */
+.medium_img {
+    padding: 5px 5px 5px 5px;
+    height: 150px;
+    transition: all 0.5s;
+}
+
+.medium_img:hover{
+    rotate: 360deg;
+}
+
+.icon_img {
+    height: 100px;
+}
+
+/* TITLE LIKE STYLES */
+#header_div {
+    align-content: center;
+    text-align: center;
+    margin: 50px 30px;
+    padding: 10px 10px;
+}
+
+
+/* HOVERABLE DIVS */
+.color_bar{
+    background-color: var(--main_color);
+    transition: background-color 0.2s ease-in;
+    text-align: center;
+    
+}
+
+.color_bar:hover{
+    background-color: var(--hover_color);
+}
+
+/* card container rounded ml-5 shadow-lg border border-primary */
+
+.card {
+    font-size: larger;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    transition: all 0.5s;
+    text-align: center;
+    max-width: 50%
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
