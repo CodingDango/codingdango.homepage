@@ -1,12 +1,15 @@
-index.html
+total unique html tags used:
 
-div
-img
-h1
-p
-button
-h2
-a
-hr
-header
-footer
+1. div
+2. img
+3. h1
+4. p
+5. br
+5. button
+6. h2
+7. a
+8. hr
+9. header
+10. footer
+11. video
+12. source

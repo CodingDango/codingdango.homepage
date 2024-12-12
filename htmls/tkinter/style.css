@@ -1,0 +1,111 @@
+:root{                  
+    --main_color: rgb(255, 26, 10);
+    --secondary_color: rgb(255, 93, 82);
+    --hover_color: rgb(250, 149, 142);
+}
+
+/* GLOBAL TAGS */
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    font-size:  1.5rem;
+    color: black;
+    transition: all 0.5s ease-out;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* ICON IMAGES */
+.medium_img {
+    padding: 10px;
+    height: 150px;
+    transition: all 0.5s;
+    background-color: var(--secondary_color);
+    border-radius: 35%;
+}
+
+.medium_img:hover{
+    transform: scale(1.2);
+}
+
+.round_img {
+    padding: 5px 5px 5px 5px;
+    height: 150px;
+    transition: all 0.5s;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.round_img:hover{
+    rotate: 360deg;
+}
+
+.icon_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+/* TITLE LIKE STYLES */
+#header_div {
+    align-content: center;
+    text-align: center;
+    margin: 50px 30px;
+    padding: 10px 10px;
+}
+
+/* HOVERABLE DIVS */
+.color_bar{
+    background-color: var(--main_color);
+    transition: background-color 0.2s ease-in;
+    text-align: center;
+    
+}
+
+.color_bar:hover{
+    background-color: var(--hover_color);
+}
+
+/* card container rounded ml-5 shadow-lg border border-primary */
+
+.card {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 30px;
+    transition: all 0.5s;
+    text-align: center;
+    max-width: max-content;
+    background-color: var(--secondary_color);
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+.pill {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 15px;
+    transition: all 0.5s;
+    text-align: center;
+    max-width: max-content;
+    background-color: var(--secondary_color);
+}
+.pill:hover{
+    background-color: var(--hover_color);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+

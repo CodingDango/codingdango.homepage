@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Importing BootStrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <title>Tkinter Periodic Table!</title>
+    
+    </head>
+    <body>
+        <!--TOP PART, THE BAR-->
+        <header>
+            <div class= "color_bar ">
+                    <img class='round_img p-0' src="assets/tk.png" alt="A picture of a feather, the Tkinter library icon.">
+            </div>
+        </header>
+
+        <div id="header_div">
+            <h1 class="display-1 fw-bold text-decoration-underline">Periodic Table GUI</h1>
+            <p class="mt-5">A GUI program using the tkinter library.<br>
+                A simple test app that makes you recite the element symbols, and element names.
+            </p>
+            <h2 class="display-3 fw-bold mt-5 text-decoration-underline">Features</h2>
+            <p class="mt-5">
+                Has a lives function, maximum of 3 mistakes before game over,<br>
+                lives are reset after each correct answer.<br>
+                Also includes a hint function whenever you get the current element wrong,<br>
+                revealing the first letter of the element name,<br>
+                and as more mistakes pile up, more of the letters following the revealed letter are shown.<br>
+            </p>
+
+            <p class="mt-5">The periodic table is in CSV format, to allow for parsing and checking for the correct answer.</p>
+            
+        </div>
+        <div class="card container border shadow-lg">
+            <video width="500" height="500" controls>
+                <source src="assets/periodic_table.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="pill rounded-pill container">
+            <a href="../../index.html">Go Back To Hompage</a>
+        </div>
+
+        <footer>
+            <header>
+                <div class= "color_bar">
+                        <img class='medium_img mb-3' src="assets/tklabel.png" alt="A picture of the tkinter label.">
+                </div>
+            </header>
+        </footer>
+</body>
+</html>

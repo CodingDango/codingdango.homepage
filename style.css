@@ -4,7 +4,6 @@
     --hover_color: rgb(121, 168, 255);
 }
 
-
 /* GLOBAL TAGS */
 p {
     font-size: 2.0rem;
@@ -13,8 +12,6 @@ p {
 a {
     font-size:  1.5rem;
 }
-
-
 
 #required .custom_input {
     margin: 1.5rem;
@@ -28,6 +25,7 @@ a {
     padding: 5px 5px 5px 5px;
     height: 150px;
     transition: all 0.5s;
+    
 }
 
 .medium_img:hover{
@@ -48,7 +46,6 @@ a {
     margin: 50px 30px;
     padding: 10px 10px;
 }
-
 
 /* HOVERABLE DIVS */
 .color_bar{
